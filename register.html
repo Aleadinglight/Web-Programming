@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!-- This is the starting form for example 9 -->
+<html>
+
+<head>
+	<title>Register</title>
+	<style>
+	th, td {
+		padding: 5px;
+		text-align: left;
+	}
+	.fieldset-auto-width {
+		width: 300px;
+		border-style: inset;
+		border-radius: 8px;
+	}
+	#block1{
+		width:30%;
+		margin:0 auto;
+		vertical-align:middle;
+		padding: 100px;
+	}
+	</style>
+</head>
+
+<body background="http://eskipaper.com/images/sky-wallpaper-35.jpg">
+	<div id="block1">
+	<h2>Bao Ngoc anh yeu em</h2>
+	<form action="register.php" method="post">
+		<fieldset class="fieldset-auto-width">
+			<legend><strong>Register Form</strong></legend>
+			<br>
+			<label for="name"><strong>First Name: </strong></label><br>
+			<input type="text" name="name" id="name"/><br>
+			<br>
+			<label for="Lname"><strong>Last Name: </strong></label><br>
+			<input type="text" name="Lname" id="Lname"/><br>
+			<br>
+			<label for="Phone"><strong>Phone number: </strong></label><br>
+			<input type="text" name="Phone" id="Phone"/><br>
+			<br>
+			<label for="username"><strong>Username: </strong></label><br>
+			<input type="text" name="username" id="username"/><br>
+			<br>
+			<label for="password"><strong>Password: </strong></label><br> 
+			<input type="password" name="password" id="password"/><br>
+			<br>
+			<input type="submit" value="Create An Account" name="register_data">
+			<button onclick="location.href='login.php'" type="button">Log In</button>
+		</fieldset>
+	</form>
+	</div>
+</body> 
+
+</html>
